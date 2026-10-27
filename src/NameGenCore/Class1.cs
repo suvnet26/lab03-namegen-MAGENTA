@@ -1,12 +1,15 @@
 ﻿namespace NameGenCore;
 
-interface INameGen
+public interface INameGen
 {
     string Name();
 }
 
 
-public class Class1
+public class OneNameGenerator : INameGen
 {
-
+public string Name()
+    {
+        return "Jessicus Stressicus";
+    }
 }
