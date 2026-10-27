@@ -1,4 +1,6 @@
-﻿namespace NameGenCore;
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace NameGenCore;
 
 public interface INameGen
 {
