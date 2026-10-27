@@ -2,7 +2,7 @@
 
 interface INameGen
 {
-    void Name();
+    string Name();
 }
 
 
